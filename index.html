@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/miestilo.css">
+    <link rel="icon" type="image/png" href="imagenes/icono.png">
+    <title>TTT Tow Truck Traslados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="ventana" id="vent">
+  </div>
+
+
+  <header>
+    <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Fernando Milani.html">TTT Tow Truck Traslados</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#quienesSomos">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#formulario">Solicitar servicio</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+      <div class="row text-center" id="inicio">
+          <h1>Servico de Traslado Profesional Automotriz</h1><br>
+          <div class="container" id="texto1">
+              <section class="container">
+              <article class="col-xs-12 col-md-12">
+                  <p>
+                    Logramos que tu vehiculo de competicion sea trasladado de manera segura y profesional a cualquier autodromo del pais.
+                  </p>
+                    </article>
+                </section>
+          </div>
+      </div>
+          <div class="text-center" id="imagenPrincipal">
+            <img src="imagenes/portada.jpg" class="img-fluid" alt="...">
+          </div>
+
+
+      <div class="container-fluid" id="quienesSomos">
+      <h2 class="text-center" id="titulo2">Tu adrenalina en nuestras manos.</h2>
+      <div class="container imagen_quienesSomos">
+        <img src="/imagenes/imagen2.jpg" id="imagen2" class="img" alt="...">
+      </div>
+      <div id="texto2">
+        <p class="container text-center">
+            <b>Somos una empresa de traslado de vehiculos exclusivamente de competicion. Nuestros trailers cuentan con la homologacion necesaria para que tu proyecto propio o de alquiler, viaje seguro y sin ningun daño, gracias a nuestros choferes profesionales. Ademas contamos con un amplio sistema de sujeciones y anclajes ISOFIX para cualquier tipo de categoria.
+            </b>
+        </p>
+      </div>
+    </div>
+
+    <form class="container sm-4 md-4 text-center" name="formulario" id="formulario">
+      <h3 class="text-center">Solicita tu servicio</h3>
+        <div class="text-center">
+            <label for="validationDefault01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="align-content-center">
+            <label for="validationDefault02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" required>
+        </div>
+        <div class="align-content-center">
+            <label class="form-label">Email</label>
+            <div class="input-group"><input type="email" class="form-control" id="email" required>
+            </div>
+        </div>
+        <div class="conteiner text-center vehiculo">
+        <select name="" id="ubicacion">
+            <option value="circuito regional">Circuito Regional</option>
+            <option value="otro circuito...">Otro circuito...</option>
+        </select>
+        <select name="" id="vehiculo">
+            <option value="turismo">Turismo</option>
+            <option value="drift">Drift</option>
+            <option value="trackday">Trackday</option>
+        </select>
+        </div>
+            <input type="number" name="distancia" min="20" max="2000" id="distancia">  Distancia a trasladar (kilometros)
+        <div class="col-12" id="boton_servicio">
+          <button class="btn btn-primary" id="submit" type="submit">Solicitar servicio</button>
+        </div>
+    </form>
+  <div">
+      <div class="conteiner text-center" d="contenedor">
+        <div id="datos">  
+        </div>
+      </div>
+  
+
+      <h3 class="conteiner text-center" id="solicitud" >Tu ultima solicitud</h3>
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Costo del servicio</th>
+            <th>Tiempo de espera</th>
+          </tr>
+        </thead>
+        <tbody id="table">
+
+        </tbody>
+      </table>
+ 
+      
+  <footer class="conteiner" id="footer2">
+	<ul class="footer">
+		<li><a href="http://facebook.com">Faceboook</a></li>
+		<li><a href="http://instagram.com">Instagram</a></li>
+		<li><a href="contactar.html">Twitter</a></li>
+	</ul>
+  <div class="container" id="footer__p">
+              </svg> Copyright &#169; 2023 Fernando Milani, Entrega Final Coderhouse</p>
+  </div>
+  </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/miestilo.css">
+</body>
+</html>
